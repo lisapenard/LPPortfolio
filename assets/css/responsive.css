@@ -1,0 +1,411 @@
+@media (max-width: 760px) {
+   
+  .logo {
+   margin-left: 40%;
+  }
+
+  .logo img {
+    margin-top: 15px;
+  }
+
+  .header {
+    height: 190px;
+    position: relative;
+  }
+
+  .header #menu-list {
+    width: 100%;
+    box-sizing: border-box; 
+    background: #252525;
+    position: relative;
+    animation: MenuAnimOut1 0.3s ease; 
+  } 
+
+  .header #menu-list li {
+   display: block;
+   padding: 17px 15px;
+   border-bottom: 1px solid #3C3C3C; 
+  } 
+
+  .header #menu-list li a {
+    width: 100%; 
+    color: #fff;
+  } 
+
+  #menu-button {
+    top: 25px;
+    position: relative;
+    background: #fff;
+    border:none;
+    width: 100%;
+    overflow: hidden;
+    height: 45px;
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    color: #e48592;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Montserrat', Arial, sans-serif;
+  } 
+
+  #menu-button span {
+    margin: 13px 60px;
+    position: absolute;
+  }
+
+  #menu-button:hover{
+    background: #f1dee1;
+  }
+
+  #menu-button:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background: #e48592;
+    top: 14px;
+    left: 10px;
+    box-shadow: 
+        0 8px 0 #e48592, 
+        0 16px 0 #e48592;
+  }
+
+  @keyframes MenuAnimOut1 {
+    0% {
+      transform: translateY(-50px) rotateY(0deg);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0px) rotateY(0deg);
+      opacity: 1;
+    }
+  }
+
+  .aboutMe {
+    width: 80%;
+  }
+
+  .contact .single_message_right_info .socail_bookmark a i{
+    padding: 20px;
+  }
+
+  .single_mixi_portfolio{
+    position:relative;
+    float: left;
+    width: 100%;
+    height: 450px;
+    margin-bottom:20px;
+    overflow: hidden;
+}
+
+.single_mixi_portfolio img{
+    width:200%;
+}
+
+.petale1 {
+    display:none;
+}
+
+.petale {
+    display:none;
+}
+
+ 
+}
+
+/* Portrait tablets and medium desktops */
+@media (max-width: 1199px) {
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .team .single_item .single_team_overlay{
+        padding: 30px 0px 10px 0px;
+    }
+    .team .single_team_right {
+        padding: 42px 10px;
+    }
+    .team .about_apply {
+        height: auto;
+    }
+
+    .single_mixi_portfolio{
+        position:relative;
+        float: left;
+        width: 100%;
+        height: 350px;
+        margin-bottom:20px;
+        overflow: hidden;
+    }
+    
+    .single_mixi_portfolio img{
+        width: 100%;
+    }
+
+    .petale1 {
+        display:none;
+    }
+    
+    .petale {
+        display:none;
+    }
+
+
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+    h3 {
+        font-size: 1.575rem;
+        line-height: 2rem;
+        margin-bottom: 15px;
+    }
+    h5 {
+        font-size: 1.1rem;
+        margin-bottom: .5rem;
+        color: #696f7c;
+        line-height: 1.475rem;
+    }
+    h4 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    /* .team .single_team_right {
+        padding: 20px 5px;
+    }
+    .team .about_apply {
+        height: auto;
+    } */
+
+    #textCreativity {
+        margin-top: -10%;
+        padding-bottom: 15%;
+    }
+  
+    #creativity .btn-primary {
+      display: none;
+    }
+  
+    .skillbar-bar {
+        width: 20%;
+    }
+
+    .single_mixi_portfolio{
+        position:relative;
+        float: left;
+        width: 100%;
+        height: 250px;
+        margin-bottom:20px;
+        overflow: hidden;
+    }
+    
+    .single_mixi_portfolio img{
+        width:100%;
+    }
+
+    
+
+}
+
+/* Landscape phones and portrait tablets */
+@media  (max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+    .btn-md {
+        padding: 1rem 2rem;
+    }
+    .team .about_apply {
+        height: auto;
+    }
+    .team .single_team_right {
+        padding: 50px 5px;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent;
+        background-color: rgba(31, 31, 31, 0.65);
+    }
+    .main_menu_bg .navbar-nav>li>a {
+        text-align: center;
+    }
+
+    .scrool_down {
+        bottom: 4%;
+    }
+
+    .mixcontent {
+        padding:0px 30px;
+    }
+
+    .single_mixi_portfolio{
+        position:relative;
+        float: left;
+        width: 100%;
+        height: 700px;
+        /* margin-bottom:5%; */
+        overflow: hidden;
+        cursor: auto;
+        pointer-events: none;
+        cursor: default;
+    }
+    
+    .single_mixi_portfolio img{
+        width: 100%;
+    }
+
+}
+
+
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+   
+    .form-control {
+        margin-bottom: 10px;
+    }
+    .gellary .single_gellary_item .gellary_overlay {
+        padding: 20px 0px 0px 0px;
+    }
+    .team .single_item .single_team_overlay {
+        padding: 40px 0px 10px 0px;
+    }
+    .team .single_team_right {
+        padding: 20px 5px;
+    }
+    .team .about_apply a {
+        height: 50px;
+    }
+
+    .single_mixi_portfolio{
+        position:relative;
+        float: left;
+        width: 100%;
+        height: 480px;
+        margin-bottom:20px;
+        overflow: hidden;
+        cursor: auto;
+        pointer-events: none;
+        cursor: default;
+    }
+    
+    .single_mixi_portfolio img{
+        width: 100%;
+    }
+
+    .modal-content {
+        display:none;
+        cursor:auto;
+    }
+
+    .skillbar-title {
+        position:absolute;
+        top:-27px;
+        left:0;
+        font-weight:bold;
+        font-size:10px;
+        line-height:27px;
+        text-transform:uppercase;
+        letter-spacing:2px;
+        color:#fff;
+    }
+
+}
+
+
+
+
+/* 
+@media (max-width: 320px) {
+
+
+    html {
+        font-size: 62%;
+    }
+    .form-control {
+        margin-bottom: 10px;
+    }
+
+    .team .single_item .single_team_overlay {
+        padding: 20px 0px 10px 0px;
+    }
+    .gellary .single_gellary_item .gellary_overlay {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .team .single_team_right {
+        padding: 10px 5px;
+    }
+    .team .about_apply a {
+        height: 45px;
+    }
+
+    .single_mixi_portfolio{
+        position:relative;
+        float: left;
+        width: 100%;
+        height: 100px;
+        margin:%;
+        overflow: hidden;
+        cursor: auto;
+        pointer-events: none;
+        cursor: default;
+    }
+    
+    .single_mixi_portfolio img{
+        width: 100%;
+    }
+
+
+
+} */
+
+@media (max-width: 300px) {
+
+
+    .single_mixi_portfolio{
+        position:relative;
+        float: left;
+        width: 100%;
+        height: 230px;
+        /* margin:-40%; */
+        overflow: hidden;
+        cursor: auto;
+        pointer-events: none;
+        cursor: default;
+    }
+    
+    .single_mixi_portfolio img{
+        width: 100%;
+    }
+
+    #menu-button span {
+        margin: 15px 60px;
+        position: absolute;
+        font-size:1rem;
+      }
+
+      .skillbar-title {
+        position:absolute;
+        top:-27px;
+        left:0;
+        font-weight:bold;
+        font-size:8px;
+        line-height:27px;
+        text-transform:uppercase;
+        letter-spacing:2px;
+        color:#fff;
+    }
+
+
+}
+
